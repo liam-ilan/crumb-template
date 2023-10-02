@@ -1,6 +1,6 @@
 #!/bin/sh
 
-tag="v0.0.1"
+tag="v0.0.2"
 into=".tmp~crumb~inflate"
 
 git clone -c advice.detachedHead=false --branch $tag --depth 1 https://github.com/liam-ilan/crumb.git $into
