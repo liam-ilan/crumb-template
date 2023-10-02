@@ -6,7 +6,7 @@ This repo will help you start your own Crumb project. To find the Crumb source c
 
 To get started with Crumb, create a new repository based off of this template, by clicking the green "Use this template" button at the top right corner.
 
-Then pull your repository, and run
+Then clone your repository, and run
 ```bash
 chmod +x build-crumb.sh && ./build-crumb.sh
 ```
