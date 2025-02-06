@@ -25,6 +25,11 @@ To build `app` as a standalone executable do:
 ./loaf app.crumb app
 ```
 
+To run standalone executable do:
+```bash
+./app
+```
+
 ## Crumb Language Basics
 See https://github.com/liam-ilan/crumb#basics.
 
