@@ -1,25 +1,42 @@
 # Crumb Template
-This repo will help you start your own Crumb project. To find the Crumb source code, see https://github.com/liam-ilan/crumb.
+This repo will help you start your own Crumb project and build it as a standalone binary.
 
-## Getting Started
 > The Crumb interpreter is built for POSIX compliant systems, and utilizes `ioctl.h` and `unistd.h`. To use Crumb on windows, either use WSL, or use a Linux container.
 
-To get started with Crumb, create a new repository based off of this template, by clicking the green "Use this template" button at the top right corner.
+## Getting Started
 
-Then clone your repository, and run
+To get started, create a new repository based off of this template by clicking the green "Use this template" button at the top right corner.
+
+Then clone your repository, cd into the repo root directory, and run:
 ```bash
-chmod +x build-crumb.sh && ./build-crumb.sh
+chmod +x setup.sh && ./setup.sh
+```
+This will build the Crumb interpreter and Loaf bundler from source.
+
+Now you're all set! 
+
+To run `app.crumb` do:
+```bash
+./crumb app.crumb
 ```
 
-Now you're all set! Just do
+To build `app` as a standalone executable do:
 ```bash
-./crumb main.crumb
+./loaf app.crumb app
 ```
-to run `main.crumb`.
 
-## Basics
+To run standalone executable do:
+```bash
+./app
+```
+
+## Crumb Language Basics
 See https://github.com/liam-ilan/crumb#basics.
 
-## Docs
+## Crumb Docs
 - See https://github.com/liam-ilan/crumb#standard-library for more info on the standard libary.
 - See https://github.com/liam-ilan/crumb#syntax for a syntax reference.
+
+## Source Repos
+- Crumb https://github.com/liam-ilan/crumb. 
+- Loaf https://github.com/liam-ilan/loaf
